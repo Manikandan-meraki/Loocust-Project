@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/responsive.css",
+	"sources": [
+		"../sass/responsive.scss"
+	],
+	"sourcesContent": [
+		"\r\n/* media device */\r\n$min-w:min-width;\r\n$max-w:max-width;\r\n$tab-lscp:992px;\r\n$tab-port:992px;\r\n$tab-landscp:992px;\r\n$tab-port:992px;\r\n/* media device */\r\n\r\n\r\n._loocust-nav .navbar .navbar-nav li a{\r\n@media screen and ($min-w: $tab-lscp){\r\n padding: 10px 20px;\r\n}\r\n}"
+	],
+	"mappings": "AACA,kBAAkB;AAOlB,kBAAkB;AAIlB,MAAM,CAAN,MAAM,MAAM,SAAS,EAAE,KAAK;;EAD5B,AAAqC,aAAxB,CAAC,OAAO,CAAC,WAAW,CAAC,EAAE,CAAC,CAAC,CAAA;IAErC,OAAO,EAAE,SAAU;GAEnB",
+	"names": []
+}

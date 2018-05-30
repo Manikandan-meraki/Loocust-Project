@@ -1,0 +1,71 @@
+
+$primary_font:'Open Sans', sans-serif;
+$loo_w:#ffffff;
+$loo_blk:#666666;
+$loo_red:#eb3333;
+$f-xs:14px;
+
+/* Extend*/ 
+%display-inline-flex{
+ display: -webkit-inline-box;
+ display: -ms-inline-flexbox;
+ display: inline-flex;
+}
+
+%display-flex{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+}
+
+%btn-theme{
+  padding: 2px;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+/* Extend*/ 
+
+/*Mixin */
+
+@mixin bg( $clr, $img, $pos, $rpt, $size) {
+		background: $clr url($img) $pos $rpt;	
+		background-size:$size;
+} 
+
+@mixin bdr($wid, $clr, $styl) {
+   border: $wid $clr $styl;
+} 
+
+@mixin border-radius($radius)
+{
+-webkit-border-radius: $radius;
+   -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+     -o-border-radius: $radius;
+        border-radius: $radius;
+}
+
+@mixin transition($trans_val)
+{
+	-webkit-transition: $trans_val;
+   -moz-transition: $trans_val;
+    -ms-transition: $trans_val;
+     -o-transition: $trans_val;
+        transition: $trans_val;
+}
+@mixin transform($transform_val){
+	-webkit-transform: $transform_val;
+   -moz-transform: $transform_val;
+    -ms-transform: $transform_val;
+     -o-transform: $transform_val;
+        transform: $transform_val;
+}
+@mixin align-items($align_val){
+-webkit-box-align: $align_val;
+    -ms-flex-align: $align_val;
+        align-items: $align_val;
+}
+
+
+ /*Mixin */

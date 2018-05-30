@@ -1,0 +1,138 @@
+@import 'fluid';
+
+.btn-theme{	
+	
+	@include bg(transparent ,"", center, no-repeat, cover);
+	@include bdr(2px, $loo_red, solid);
+	color: #ffffff;
+
+&:hover{
+color: $loo_red;
+}
+}
+
+.btn-theme-fill{
+
+	@include bg($loo_red ,"", center, no-repeat, cover);
+	
+	color: #ffffff;
+}
+
+
+
+
+._prod_div
+{
+
+	background:$loo_w;
+	.navbar .navbar-nav 
+			{
+				li
+				{
+					.nav-link
+					{
+						color:$loo_w;
+
+						&:hover, &:active
+						{
+							color:$loo_red;
+						}
+					}
+					&.active .nav-link
+					{
+						color:$loo_red;
+					}
+					
+				}
+
+			}
+			/* Slider tab*/
+			.tabbable
+			{
+				.nav.nav-tabs {			
+					li{
+						a{
+							color: $loo_w;
+						}
+					}
+				}
+				
+				/* product cnt */
+				
+			._prod_cnt
+				{
+				
+					border-left: 3px $loo_w solid;
+					&:before
+					{
+						background-color: $loo_w;
+						border: 2px $loo_red solid;
+					}
+					h3
+					{
+						color:$loo_w;
+					}
+					p
+					{
+						color:$loo_w;
+					}
+					.btn-prod {
+						.more-cnt{
+							color:$loo_w;
+								
+						}
+						&:hover{
+							
+							.more-cnt{
+								color:$loo_red;
+
+							}
+						}
+					}}
+					
+				}
+	.interested-form{
+	.input-group {
+		border: 2px $loo_red solid;
+		
+	
+		.mail-btn{
+		
+			background: $loo_red;
+			color: #fff;
+
+		}
+		input{
+						color:  $loo_red;
+		}
+		
+		.btn-send{
+			color: $loo_w;			
+			background: $loo_red;}
+		&:hover{
+			.btn-send{
+				background:  $loo_blk;
+			}
+		}
+	}
+}
+				
+				/* product cnt */
+
+			}
+			._social_icon {
+		
+				i{
+					border: 1px $loo_w solid;
+					color:$loo_w;
+					&:hover{
+						color:$loo_red;
+						border: 1px $loo_red solid;
+					}
+				}
+			}
+.rect{ fill:#d6d6d6;
+					width:3.5px;
+					height:12.2px;}
+
+					.rect-clr, .zip{fill:$loo_red;}

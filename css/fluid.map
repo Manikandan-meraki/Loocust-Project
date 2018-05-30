@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/fluid.css",
+	"sources": [
+		"../sass/fluid.scss"
+	],
+	"sourcesContent": [
+		"\r\n$primary_font:'Open Sans', sans-serif;\r\n$loo_w:#ffffff;\r\n$loo_blk:#666666;\r\n$loo_red:#eb3333;\r\n$f-xs:14px;\r\n\r\n/* Extend*/ \r\n%display-inline-flex{\r\n display: -webkit-inline-box;\r\n display: -ms-inline-flexbox;\r\n display: inline-flex;\r\n}\r\n\r\n%display-flex{\r\ndisplay: -webkit-box;\r\ndisplay: -ms-flexbox;\r\ndisplay: flex;\r\n}\r\n\r\n%btn-theme{\r\n  padding: 2px;\r\n  font-size: 14px;\r\n  font-weight: 900;\r\n  text-transform: uppercase;\r\n}\r\n/* Extend*/ \r\n\r\n/*Mixin */\r\n\r\n@mixin bg( $clr, $img, $pos, $rpt, $size) {\r\n\t\tbackground: $clr url($img) $pos $rpt;\t\r\n\t\tbackground-size:$size;\r\n} \r\n\r\n@mixin bdr($wid, $clr, $styl) {\r\n   border: $wid $clr $styl;\r\n} \r\n\r\n@mixin border-radius($radius)\r\n{\r\n-webkit-border-radius: $radius;\r\n   -moz-border-radius: $radius;\r\n    -ms-border-radius: $radius;\r\n     -o-border-radius: $radius;\r\n        border-radius: $radius;\r\n}\r\n\r\n@mixin transition($trans_val)\r\n{\r\n\t-webkit-transition: $trans_val;\r\n   -moz-transition: $trans_val;\r\n    -ms-transition: $trans_val;\r\n     -o-transition: $trans_val;\r\n        transition: $trans_val;\r\n}\r\n@mixin transform($transform_val){\r\n\t-webkit-transform: $transform_val;\r\n   -moz-transform: $transform_val;\r\n    -ms-transform: $transform_val;\r\n     -o-transform: $transform_val;\r\n        transform: $transform_val;\r\n}\r\n@mixin align-items($align_val){\r\n-webkit-box-align: $align_val;\r\n    -ms-flex-align: $align_val;\r\n        align-items: $align_val;\r\n}\r\n\r\n\r\n /*Mixin */\r\n"
+	],
+	"mappings": "AAOA,WAAW;AAmBX,WAAW;AAEX,UAAU;AA0CT,UAAU",
+	"names": []
+}

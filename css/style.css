@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url("../img/bg.jpg");
+}
+
+._loocust-nav .navbar{
+  padding: 25px 5%;
+}
+
+._loocust-nav .navbar li a{
+	color: #fff;
+  
+}
+._loocust-nav .navbar li strike {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+._loocust-nav .navbar li:hover strike:after {
+  content: "";
+  /* required property */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 2px solid red;
+  height: 45%;
+  /* adjust as necessary, depending on line thickness */
+  /* or use calc() if you don't need to support IE8: */
+  height: calc(50% - 1px);
+  /* 1px = half the line thickness */
+  width: 120%;
+  transform: rotateZ(-4deg);
+  transition: width .2s;
+}
+
+
+._about{
+  padding-top: 25px;
+
+}
+
+
+
+
+
+@media (min-width: 992px){
+	._loocust-nav .navbar .navbar-nav li a{
+   padding: 10px 20px;
+ }
+}

@@ -1,0 +1,97 @@
+/* media device */
+/* media device */
+@media screen and (max-width: 991px) {
+  ._loocust-nav .navbar {
+    background: #ffffff;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  ._loocust-nav .navbar .navbar-nav li a {
+    padding: 10px 15px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  ._loocust-nav .navbar .navbar-nav li a {
+    color: #333333;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  ._loocust-nav .navbar .navbar-nav li a {
+    text-shadow: 1px 1px 10px #808080;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  ._prod_div {
+    background: #ffffff !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  ._prod_div .navbar {
+    padding: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  ._prod_div .tabbable .nav.nav-tabs {
+    float: none;
+    border-bottom: 1px #d4d4d4 solid;
+  }
+  ._prod_div .tabbable .nav.nav-tabs:before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  ._prod_div .tabbable .nav.nav-tabs li {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px #d4d4d4 solid;
+    border-bottom: 0px;
+  }
+  ._prod_div .tabbable .nav.nav-tabs li.active, ._prod_div .tabbable .nav.nav-tabs li:hover {
+    background: #eaeaea;
+  }
+  ._prod_div .tabbable .nav.nav-tabs li svg {
+    display: none;
+  }
+  ._prod_div .tabbable .nav.nav-tabs li a span {
+    visibility: visible;
+  }
+  .inner ._prod_div .tabbable .nav.nav-tabs li {
+    height: auto;
+    border-left: 1px #d4d4d4 solid;
+  }
+  .inner ._prod_div .tabbable .nav.nav-tabs li.active, .inner ._prod_div .tabbable .nav.nav-tabs li:hover {
+    border-left: 1px #d4d4d4 solid;
+    border-top: 4px #eb3333 solid;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  ._prod_div .tabbable .prod_showcase {
+    padding: 20px 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  ._prod_div .tabbable .prod_showcase .img-bg {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  ._prod_div .tabbable .prod_showcase ._prod_img {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  ._prod_div .tabbable .prod_showcase ._prod_img img {
+    height: 100%;
+  }
+}
